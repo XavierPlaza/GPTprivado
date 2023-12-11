@@ -25,7 +25,7 @@ ERROR: Failed building wheel for chroma-hnswlib
 Failed to build hnswlib chroma-hnswlib
 ERROR: Could not build wheels for hnswlib, chroma-hnswlib, which is required to install pyproject.toml-based projects
 ```
-La solución al problema se describe [aquí](https://github.com/imartinez/privateGPT/issues/302#issuecomment-1646731000). Otra alternativa es instalar entornos de desarrollo para compilar el proyecto antes de instalar ChromaDB como se [explica en este hilo](https://stackoverflow.com/questions/73969269/)error-could-not-build-wheels-for-hnswlib-which-is-required-to-install-pyprojec
+La solución al problema se describe [aquí](https://github.com/imartinez/privateGPT/issues/302#issuecomment-1646731000). Otra alternativa es instalar entornos de desarrollo para compilar el proyecto antes de instalar ChromaDB como se [explica en este hilo](https://stackoverflow.com/questions/73969269/).
 
 Para instalar el paquete hnswlib y evitar la compilación del código ejecutaremos:
 ```shell

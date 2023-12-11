@@ -1,0 +1,5 @@
+langchain
+chromadb==0.3.23
+tiktoken
+openai
+pypdf 
